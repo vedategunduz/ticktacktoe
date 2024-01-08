@@ -32,7 +32,8 @@ function whoIsWinner(param) {
         [1, 4, 7],
         [2, 5, 8],
         [2, 4, 6],
-        [3, 4, 5]
+        [3, 4, 5],
+        [6, 7, 8]
     ];
     for (let i = 0; i < wins.length; i++) {
         if (selectedBoxs[wins[i][0]] == selectedBoxs[wins[i][1]] && selectedBoxs[wins[i][1]] == selectedBoxs[wins[i][2]]) {
