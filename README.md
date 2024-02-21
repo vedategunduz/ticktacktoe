@@ -4,7 +4,7 @@ Bu proje, JavaScript Tic-Tac-Toe oyununu içerir. Oyun, iki oyuncu arasında oyn
 
 ## Nasıl Oynanır
 
-1. Oyunu başlatmak için `index.html` dosyasını bir web tarayıcısında açın.
+1. Oyunu oynamak için https://vedategunduz.github.io/ticktacktoe/ ziyaret edin.
 2. Oyun yüklendiğinde, iki oyuncudan biri "X" sembolünü, diğeri ise "O" sembolünü alır.
 3. Oyuncular sırayla kendi sembolleriyle boş hücrelere tıklarlar.
 4. Bir oyuncu üç sembolü yatay, dikey veya çapraz olarak hizalayabilirse, o oyuncu kazanır.
