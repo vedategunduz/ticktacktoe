@@ -1,59 +1,30 @@
-# Tick Tack Toe
-Bu basit bir tick tack toe oyunudur.
+# Tic-Tac-Toe Oyunu
 
-# URL
-[https://vedategunduz.github.io/ticktacktoe/](https://vedategunduz.github.io/ticktacktoe/)
+Bu proje, JavaScript Tic-Tac-Toe oyununu içerir. Oyun, iki oyuncu arasında oynanır ve bir kullanıcı arayüzü kullanarak etkileşimli bir şekilde oynanır.
+
+## Nasıl Oynanır
+
+1. Oyunu başlatmak için `index.html` dosyasını bir web tarayıcısında açın.
+2. Oyun yüklendiğinde, iki oyuncudan biri "X" sembolünü, diğeri ise "O" sembolünü alır.
+3. Oyuncular sırayla kendi sembolleriyle boş hücrelere tıklarlar.
+4. Bir oyuncu üç sembolü yatay, dikey veya çapraz olarak hizalayabilirse, o oyuncu kazanır.
+5. Eğer tüm hücreler dolarsa ve hiçbir oyuncu kazanamazsa, oyun berabere biter.
+
+## Proje Dosyaları
+
+- `/index.html`: Oyunun HTML dosyası.
+- `assets/css/style.css`: Oyunun CSS dosyası.
+- `assets/js/script.js`: Oyunun JavaScript dosyası.
 
 
+## Gereksinimler
 
-![](https://cdn.discordapp.com/attachments/1175449786565009490/1175478453659762718/xo.png)
-![](https://cdn.discordapp.com/attachments/1175449786565009490/1175478453169041530/xo_win.png) 
+Bu uygulama için herhangi bir harici bağımlılık gerekmez. Ancak, JavaScript'in etkin olduğu bir tarayıcı gereklidir.
 
+## Ekran Görüntüleri
 
-# CDN
-
-## CSS
-```html
-<link rel="stylesheet" href="https://cdn.discordapp.com/attachments/1175449786565009490/1175474509369856185/style.css">
-```
-## JS
-```html
-<script src="https://cdn.discordapp.com/attachments/1175449786565009490/1175474509009125457/script.js"></script>
-```
-
-## Başlarken
-1. Javascript ve CSS dosyasını dahil edin.
-
-```html
-<head>
-    .
-    ..
-    ...
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    .
-    ..
-    ...
-    <main>
-        <div class="game">
-            <section class="box-wrapper">
-                <div class="box-item"></div>
-                <div class="box-item"></div>
-                <div class="box-item"></div>
-                <div class="box-item"></div>
-                <div class="box-item"></div>
-                <div class="box-item"></div>
-                <div class="box-item"></div>
-                <div class="box-item"></div>
-                <div class="box-item"></div>
-            </section>
-            <div id="finish"></div>
-            <button id="restart" onclick="restartGame()"><b>Restart</b></button>
-        </div>
-    </main>
-    <script src="script.js"></script>
-</body>
-```
-Artık oynanmaya hazır.
+![Başlangıç Ekranı](assets/img/start.jpg)
+![Oynayış Ekranı](assets/img/xando.jpg)
+![X Kazanma Ekranı](assets/img/xiswin.jpg)
+![O Kazanma Ekranı](assets/img/oiswin.jpg)
+![Beraberlik Ekranı](assets/img/draw.jpg)
